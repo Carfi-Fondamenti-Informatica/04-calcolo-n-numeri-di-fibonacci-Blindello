@@ -13,7 +13,8 @@ int i=0;
 
     }
     K=n;
-    for(i=0;i<K;i++){
+    while (i<K) {
+    i++;
     b=n+a;
     n=a;
     a=b;
