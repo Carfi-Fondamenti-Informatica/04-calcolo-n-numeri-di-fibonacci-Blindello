@@ -7,7 +7,7 @@ int a=0;
 int b=0;
 int i=0;
     cin>>n;
-    while (n<=2) {
+    while (n<2) {
         cout<<"errore"<<endl;
         cin>>n;
 
