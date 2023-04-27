@@ -7,9 +7,7 @@ int a=0;
 int b=0;
 int i=0;
     cin>>n;
-    while (n<2) {
-        cout<<"errore"<<endl;
-    }
+    if (n>=2) {
     K=n;
     while (i<K) {
     i++;
@@ -17,6 +15,8 @@ int i=0;
     n=a;
     a=b;
     cout<<b<<endl;
-    }
+    }}
+    else {
+        cout<<"errore"<<endl;
     return 0;
 }
