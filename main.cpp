@@ -9,8 +9,6 @@ int i=0;
     cin>>n;
     while (n<2) {
         cout<<"errore"<<endl;
-        cin>>n;
-
     }
     K=n;
     while (i<K) {
